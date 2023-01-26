@@ -1,0 +1,18 @@
+.Section {
+    list-style: none;
+    margin-right: 270px;
+    padding: 0px;
+}
+.title {
+    margin: 6px;
+}
+
+.feetback {
+display: flex;
+align-items: center;
+}
+
+p{
+    margin: 3px;
+    display: block;
+}
