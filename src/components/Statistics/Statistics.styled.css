@@ -1,0 +1,12 @@
+.Section {
+    list-style: none;
+    margin-right: 50px;
+    padding: 0px;
+}
+.title {
+    margin: 6px;
+}
+.title::first-letter {
+    text-transform: uppercase;
+  }
+

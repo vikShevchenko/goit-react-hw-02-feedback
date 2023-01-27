@@ -1,13 +1,13 @@
-import Statistics from 'components/Ststistics/Statistics';
-
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import './Section.styled.css'
 
 export default class Section extends Component {
   render() {
     return (
-      <div>
-        <Statistics statDat={this.props} />
+      <div className='section'>
+        <h4>{this.props.title}</h4>
+         {this.props.children} 
       </div>
-    );
+    )
   }
 }

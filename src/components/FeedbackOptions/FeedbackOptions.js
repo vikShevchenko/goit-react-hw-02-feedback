@@ -4,7 +4,7 @@ import './FeedbackOptions.styled.css';
 
 export default function FeedbackOptions({ onLeaveFeedback, options }) {
   return (
-    <div>
+    <>
       <ul className="buttonSection">
         {options.map(but => (
           <li key={but}>
@@ -18,7 +18,7 @@ export default function FeedbackOptions({ onLeaveFeedback, options }) {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }
 

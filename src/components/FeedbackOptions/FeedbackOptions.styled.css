@@ -13,7 +13,12 @@
        width: 70px;
        border-color: #e4e2df;
        box-shadow: 1px 1px 3px;
+       font-size: initial;
+
    }
+   .button::first-letter {
+    text-transform: uppercase;
+  }
 
    .button:hover{
     background-color: #3578e5;
