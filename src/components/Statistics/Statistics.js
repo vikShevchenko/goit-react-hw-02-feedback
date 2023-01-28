@@ -3,7 +3,6 @@ import './Statistics.styled.css';
 import React from 'react';
 
 export default function Statistics(props) {
-  //console.log(Object.entries(props))
   return (
     <div>
       <ul className="ulSection">
