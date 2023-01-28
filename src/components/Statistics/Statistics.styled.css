@@ -1,12 +1,22 @@
-.Section {
+.ulSection {
     list-style: none;
     margin-right: 50px;
     padding: 0px;
 }
-.title {
-    margin: 6px;
+.lastElem{
+    font-size: xx-large;
 }
-.title::first-letter {
+
+.lastElem:nth-child(5)::after{
+    content: "%";}
+
+.lastElem:nth-child(5){
+    display: flex;
+}
+
+.lastElem::first-letter {
     text-transform: uppercase;
+    
   }
 
+ 
