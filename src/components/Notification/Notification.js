@@ -5,7 +5,7 @@ export default function Notification(props) {
   return (
     <p
       style={{
-        paddingTop: '60px',
+        paddingTop: '10px',
         boxSizing: 'border-box',
         textAlign: 'center',
       }}
